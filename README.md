@@ -18,6 +18,7 @@ sudo -H pip install -U jetson-stats
 ```
 
 ## 3. install ROS2(Humble)
+> https://docs.ros.org/en/humble/index.html
 ```shell
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
