@@ -1,7 +1,10 @@
 # Jetpack6_first_settings
 > jetpack setting(pip, torch, ROS2, etc..)
 
-## 1. keyboard(Korean)
+## 1. default settings
+#### suspend
+- settings -> Power -> Screen Blank: Never
+#### keyboard(Korean)
 - settings -> Region & Language -> Manage... -> sel Korean -> Reboot
 - settings -> Keyboard -> add Korean(Hangul)
 
