@@ -1,14 +1,18 @@
 # Jetpack6_first_settings
 > jetpack setting(pip, torch, ROS2, etc..)
 
-## 1. install with apt
+## 1. keyboard(Korean)
+- settings -> Region & Language -> Manage... -> sel Korean -> Reboot
+- settings -> Keyboard -> add Korean(Hangul)
+
+## 2. install with apt
 ```shell
 sudo apt install terminator
 sudo apt install firefox
 sudo apt install tree
 ```
 
-## 2. install ROS2(Humble)
+## 3. install ROS2(Humble)
 ```shell
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
@@ -30,7 +34,7 @@ sudo apt install ros-dev-tools
 source /opt/ros/humble/setup.bash
 ```
 
-## 2. OpenCV 4.10.0 with CUDA
+## 3. OpenCV 4.10.0 with CUDA
 ```shell
 ./build_opencv.sh
 ```
