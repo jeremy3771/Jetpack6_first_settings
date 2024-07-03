@@ -34,7 +34,7 @@ sudo apt install ros-dev-tools
 source /opt/ros/humble/setup.bash
 ```
 
-## 3. OpenCV 4.10.0 with CUDA
+## 4. OpenCV 4.10.0 with CUDA
 ```shell
 ./build_opencv.sh
 ```
