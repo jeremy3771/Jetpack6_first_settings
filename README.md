@@ -8,12 +8,13 @@
 - settings -> Region & Language -> Manage... -> sel Korean -> Reboot
 - settings -> Keyboard -> add Korean(Hangul)
 
-## 2. install with apt
+## 2. install with apt and pip
 ```shell
 sudo apt install terminator
 sudo apt install firefox
 sudo apt install tree
 sudo apt install python3-pip
+sudo -H pip install -U jetson-stats
 ```
 
 ## 3. install ROS2(Humble)
