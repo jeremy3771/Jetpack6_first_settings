@@ -39,6 +39,7 @@ source /opt/ros/humble/setup.bash
 ```
 
 ## 4. OpenCV 4.10.0 with CUDA
+#### check OpenCV with CUDA by jtop
 ```shell
 ./build_opencv.sh
 ```
