@@ -15,6 +15,8 @@ sudo apt install firefox
 sudo apt install tree
 sudo apt install python3-pip
 sudo -H pip install -U jetson-stats
+pip3 install onnx
+pip install ultralytics
 ```
 
 ## 3. install ROS2(Humble)
