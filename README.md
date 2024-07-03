@@ -10,6 +10,7 @@
 sudo apt install terminator
 sudo apt install firefox
 sudo apt install tree
+sudo apt install python3-pip
 ```
 
 ## 3. install ROS2(Humble)
