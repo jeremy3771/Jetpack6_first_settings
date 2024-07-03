@@ -44,3 +44,20 @@ source /opt/ros/humble/setup.bash
 ```shell
 ./build_opencv.sh
 ```
+
+## 5. torch with CUDA
+> https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048
+#### check torch with CUDA is available
+```shell
+>>> import torch
+>>> torch.cuda.is_available()
+```
+#### if return is False
+```shell
+wget https://nvidia.box.com/shared/static/mp164asf3sceb570wvjsrezk1p4ftj8t.whl -O torch-2.3.0-cp310-cp310-linux_aarch64.whl
+wget https://nvidia.box.com/shared/static/9agsjfee0my4sxckdpuk9x9gt8agvjje.whl -O torchaudio-2.3.0+952ea74-cp310-cp310-linux_aarch64.whl
+wget https://nvidia.box.com/shared/static/xpr06qe6ql3l6rj22cu3c45tz1wzi36p.whl -O torchvision-0.18.0a0+6043bc2-cp310-cp310-linux_aarch64.whl
+sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev
+pip3 install 'Cython<3'
+pip3 install numpy torch-2.3.0-cp310-cp310-linux_aarch64.whl torchaudio-2.3.0+952ea74-cp310-cp310-linux_aarch64.whl torchvision-0.18.0a0+6043bc2-cp310-cp310-linux_aarch64.whl
+```
