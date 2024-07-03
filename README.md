@@ -1,4 +1,4 @@
-# Jetpack6_first_settings
+# Jetpack 6.0 first settings
 > jetpack setting(pip, torch, ROS2, etc..)
 
 ## 1. default settings
