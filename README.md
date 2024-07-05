@@ -64,3 +64,5 @@ sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev
 pip3 install 'Cython<3'
 pip3 install numpy torch-2.3.0-cp310-cp310-linux_aarch64.whl torchaudio-2.3.0+952ea74-cp310-cp310-linux_aarch64.whl torchvision-0.18.0a0+6043bc2-cp310-cp310-linux_aarch64.whl
 ```
+
+## 6. Livox MID-360
