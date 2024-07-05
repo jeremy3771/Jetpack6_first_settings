@@ -39,7 +39,7 @@ sudo apt install ros-humble-desktop
 sudo apt install ros-humble-ros-base
 sudo apt install ros-dev-tools
 
-source /opt/ros/humble/setup.bash
+echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 ```
 
 ## 4. OpenCV 4.10.0 with CUDA
